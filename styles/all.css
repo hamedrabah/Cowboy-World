@@ -1,0 +1,311 @@
+/* sets default margin and padding to 0 so there won't  be weird empty space*/
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* home page text*/
+.homeText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -34%);
+    width: 90%;
+    font-size: 71px;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.sourceText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -34%);
+    width: 90%;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.quizText {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -34%);
+    width: 90%;
+    font-size: 60px;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+}
+
+input[type='radio'] {
+  transform: scale(1.5);
+}
+
+  /*the text for each informational page (horse, duel, lasso, cowboy hat) */
+.informationText {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    bottom: 211px;
+    width: 80%;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+    font-family: Georgia;
+}
+
+#hatText {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 75%);
+    bottom: 211px;
+    width: 80%;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+    font-family: Georgia;
+}
+
+#chooseLink:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.homeButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 320%);
+    width: 30%;
+    font-size: 60px;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    border:  3px solid;
+    border-color: red;
+}
+
+#chooseLink {
+text-decoration: none;
+color: white;
+}
+/*Fonts and styles across multiple pages */
+@font-face {
+    font-family:"Lobster Two";
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face{
+  font-family:"Domine";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face{
+  font-family:"Playball";
+  src: url("../fonts/Playball/Playball-Regular.ttf");
+}
+
+#homeBackground{
+width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+body{
+  font-family: 'Playball';
+  height: 100%;
+  width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1{
+  font-size: 48px;
+}
+
+h2{
+  font-size: 26px;
+}
+
+#navBarH1 {
+  float: left;
+  overflow: hidden;
+  padding-left:8px;
+  padding-top:10px;
+}
+
+#logo {
+  height: 30px;
+  width: 50px;
+  float: left;
+  margin-right: 329px;
+  transform: translate(-616%,0);
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #ab0f23;
+  display: flex;
+}
+
+.navbar a {
+  float:left;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  padding: 30px 65px;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #C7996C;
+  cursor: pointer;
+}
+
+#indexBackground {
+width: 100%;
+height: 620px;
+}
+
+.highlighted{
+  background-color: #C7996C;
+}
+
+.highlightedIcon{
+  background-color: blue;
+}
+
+img {
+width: 100%;
+}
+
+.icons {
+  position: absolute;
+  top: 29%;
+  left: 11%;
+  width: 10%;
+  background-color: white;
+  border: solid 5px black;
+}
+
+.icons:hover {
+  background-color: red;
+}
+
+#icon1 {
+transform: translate(-48px, 0%);
+}
+
+#icon2 {
+transform: translate(220px, 0%);
+}
+
+#icon3 {
+transform: translate(540px, 0%);
+}
+
+#icon4 {
+transform: translate(860px, 0%);
+}
+
+.iconText {
+border: 3px black solid;
+background-color: black;
+position: absolute;
+top: 50%;
+left: 50%;
+font-size: 50px;
+color: white;
+opacity: 0.7;
+}
+
+.iconText:hover {
+color: maroon;
+}
+
+#iconText1 {
+transform: translate(-589px, 309%);
+width: 200px;
+height: 65px;
+}
+
+#iconText2 {
+  transform: translate(-319px, 309%);
+  width: 200px;
+  height: 65px;
+}
+
+#iconText3 {
+  transform: translate(5px, 306%);
+  width: 200px;
+  height: 65px;
+}
+
+#iconText4 {
+  transform: translate(324px, 309%);
+  width: 200px;
+  height: 65px;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ab0f23;
+  color: white;
+  text-align: center;
+}
+
+/*centers the navbar and the page content */
+.container {
+  text-align: center;
+  height: 300px;
+}
